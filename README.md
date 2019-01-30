@@ -1,6 +1,9 @@
 # persons-manager
 simple react project
 
+### `npm i`
+
+Installs all modules and dependencies for working with a project
 
 ### `npm start`
 
