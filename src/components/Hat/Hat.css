@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+.Hat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    margin-bottom: 15px;
+}
+
+.Hat h2.Header {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: darkslateblue;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.Hat div.BtnWrapper {
+    display: flex;
+    max-width: 90%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.Hat button.Btn {
+    display: block;
+    background-color: violet;
+    border: 1px solid darkslateblue;
+    color: white;
+    cursor: pointer;
+    text-transform: underline;
+    padding: 12px;
+    transition: border-color .8s ease-in-out, background-color .8s ease-in-out;
+}
+
+.Hat button.Btn:hover {
+    background-color: darkslateblue;
+    border-color: violet;
+}
+
+.Hat button.ShowBtn {
+    flex: 3;
+}
+
+.Hat button.LoginBtn {
+    flex: 1;
+ }
+
+ .Hat button.HideBtn {
+     display: none;
+ }
